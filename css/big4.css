@@ -1,0 +1,108 @@
+
+            * { margin: 0; padding: 0; }
+            
+            body
+            {
+                font-family: Arial;
+                background-color: black;
+                height: 100%;
+                color: black;
+            }
+            
+            #header
+            {
+                background-color: black;
+                height: 150px;
+                width: 100%;
+            }
+            
+            .container
+            {
+                width: 960px;
+                height: auto;
+                margin: 0 auto;
+                
+               
+            }
+            
+             #logoArea
+            {
+                width: 400px;
+                height: 150px;
+                background-image: url(https://rymimg.com/lk/f/s/5db6864e7cd153a23947ca39fc0b28b9/5774694.jpg);
+                float: left;
+                
+            }
+            
+            #navArea
+            
+            {
+                margin-top: 100px;
+                height: 60px;
+                float: right;
+                
+            }
+            
+            #nav
+            {
+                list-style: none;
+                margin-top: 1px;
+            }
+            
+            #nav a
+            {
+                color: white;
+                text-decoration: none;
+                
+            }
+
+            #nav li
+            {
+                float: left;
+                margin-left: 15px;
+                background-color: #252525;
+                padding : 8px;
+                border: 1px solid silver;
+                border-radius: 5px;
+            }
+            
+            #nav li:hover
+            {
+                background-color: red;   
+            }
+            
+            .page
+            {
+                background-color: black;
+                padding: 20px;
+                padding-bottom: 1px;
+                height: auto;
+            }
+
+            #footer
+            {
+                background-color: black;
+                height: 20px;
+                width: 100%;
+                color: white;
+                padding-top: 20px;
+                position: fixed;
+                bottom: 0;
+                text-align: center;
+            }
+            
+            p
+            {
+                margin-bottom: 40px;
+                color: white;
+            }
+            
+            h2
+            {
+                color: red;
+            }
+      
+            #mainArea
+            {
+                background-color: black;
+            }
